@@ -26,3 +26,15 @@ body {
     "planeta planeta   angel       lluvia"
     "sayan   supersayan venom      venom";
 }
+
+.title       { grid-area: title; }
+.cosmos      { grid-area: cosmos; }
+.arquera     { grid-area: arquera; }
+.guerrera    { grid-area: guerrera; }
+.guerrero    { grid-area: guerrero; }
+.angel       { grid-area: angel; }
+.planeta     { grid-area: planeta; }
+.lluvia      { grid-area: lluvia; }
+.sayan       { grid-area: sayan; }
+.supersayan  { grid-area: supersayan; }
+.venom       { grid-area: venom; }
