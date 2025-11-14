@@ -9,3 +9,20 @@ body {
     background: #f2f2f2;
 }
 
+.anime-grid {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 160px;
+    gap: 20px;
+
+    grid-template-areas:
+    "title   title     cosmos      cosmos"
+    "arquera guerrera  angel       guerrero"
+    "planeta planeta   angel       lluvia"
+    "sayan   supersayan venom      venom";
+}
