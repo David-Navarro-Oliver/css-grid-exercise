@@ -38,3 +38,16 @@ body {
 .sayan       { grid-area: sayan; }
 .supersayan  { grid-area: supersayan; }
 .venom       { grid-area: venom; }
+
+.title {
+    border: 1px solid #ccc;
+    padding: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 2.4rem;
+}
+
